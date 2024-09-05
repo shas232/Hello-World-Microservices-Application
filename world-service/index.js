@@ -3,20 +3,9 @@ const app = express();
 
 const PORT = 3000;
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.use('/health', (req, res) => {
-  res.send('ok');
-});
-
-app.use('/world', (req, res) => {
-  console.log('Received request from hello service');
-  res.send('World');
-});
 
 app.use('/', (req, res) => {
-  res.send('Hello');
+  res.send('World');
 });
 
 app.listen(PORT, (error) => { 

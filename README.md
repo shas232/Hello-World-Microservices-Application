@@ -1,4 +1,4 @@
-# Kubernetes Demo
+# Assignment 1
 
 This guide demonstrates how to set up and run a Node.js application with microservices architecture, containerized using Docker, and orchestrated with Kubernetes.
 
@@ -8,10 +8,11 @@ Ensure you have the following installed on your system:
 - Docker
 - Kubernetes (Minikube or any cloud provider's Kubernetes service)
 - Git
-
+  
+```
 ## Installing Node.js
 Follow these steps to install Node.js using NVM (Node Version Manager):
-```bash
+bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install 20.10.0
@@ -51,3 +52,6 @@ kubectl apply -f world-service/kubernetes
 ## To test it
 node test.js
 
+Docker Hub
+Hello Service:https://hub.docker.com/layers/shas232/assignment/hello-service/images/sha256-1bfba9101d8faaa9a94f12871c417dbcee7dd87879de2d2134619710e780d129?context=repo
+World Sercice: https://hub.docker.com/layers/shas232/assignment/world-service/images/sha256-f2b9b935745d8c47c1cc63becaeeb70c9390618f49a564d46098540dc5942e33?context=repo
