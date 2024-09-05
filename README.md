@@ -9,7 +9,7 @@ Ensure you have the following installed on your system:
 - Kubernetes (Minikube or any cloud provider's Kubernetes service)
 - Git
 
-## Installing Node.js
+## Running the repo
 Follow these steps to install Node.js using NVM (Node Version Manager):
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
