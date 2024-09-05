@@ -11,12 +11,13 @@ Ensure you have the following installed on your system:
 
 ## Running the repo
 Follow these steps to install Node.js using NVM (Node Version Manager):
-
+```
 bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install 20.10.0
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.10.0/bin
+
 
 ## Hello Service 
 
@@ -48,7 +49,7 @@ docker push shas232/world-service:latest
 ##Kubernetes Manifests
 kubectl apply -f hello-service/kubernetes
 kubectl apply -f world-service/kubernetes
-
+```
 ## To test it
 node test.js
 
