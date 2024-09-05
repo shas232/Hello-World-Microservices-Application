@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: your-deployment-name
+  name: world-service-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: your-app-name
+      app: world-service
   template:
     metadata:
       labels:
-        app: your-app-name
+        app: world-service
     spec:
       containers:
-      - name: your-container-name
-        image: your-dockerhub-username/your-image-name
+      - name: world-service-container
+        image: shas232/world-service:latest
         ports:
         - containerPort: 3000
