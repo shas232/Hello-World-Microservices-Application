@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: your-deployment-name
+  name: hello-service-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: your-app-name
+      app: hello-service
   template:
     metadata:
       labels:
-        app: your-app-name
+        app: hello-service
     spec:
       containers:
-      - name: your-container-name
-        image: your-dockerhub-username/your-image-name
+      - name: hello-service-container
+        image: shas232/hello-service:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 1729
