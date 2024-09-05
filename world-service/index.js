@@ -16,7 +16,7 @@ app.use('/world', (req, res) => {
 });
 
 app.use('/', (req, res) => {
-  res.send('Welcome');
+  res.send('Hello');
 });
 
 app.listen(PORT, (error) => { 
