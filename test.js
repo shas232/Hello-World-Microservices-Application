@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 // URLs for both services
-const helloServiceUrl = 'http://localhost:1729/hello-world';
-const worldServiceUrl = 'http://localhost:3000/world';
+const helloServiceUrl = 'http://localhost:1729';
+const worldServiceUrl = 'http://localhost:3000';
 
 // Function to test hello-service
 async function testHelloService() {
