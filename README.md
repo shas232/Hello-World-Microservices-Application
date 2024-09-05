@@ -1,4 +1,4 @@
-# Kubernetes Demo
+# Assignment 1
 
 This guide demonstrates how to set up and run a Node.js application with microservices architecture, containerized using Docker, and orchestrated with Kubernetes.
 
