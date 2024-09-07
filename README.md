@@ -33,7 +33,7 @@ docker tag hello-service shas232/hello-service:latest
 docker run -p 1729:1729 hello-service
 # Push to Docker Hub
 docker push shas232/hello-service:latest
-![image](https://github.com/user-attachments/assets/bea1e36b-d9f1-4a12-ae14-e77aa7e7288c)
+
 
 
 
@@ -51,7 +51,7 @@ docker tag world-service shas232/world-service:latest
 docker run -p 3000:3000 world-service
 # Push to Docker Hub
 docker push shas232/world-service:latest
-![image](https://github.com/user-attachments/assets/7cfa19e5-74db-45df-bf7f-ab3ec9014d76)
+
 
 
 
